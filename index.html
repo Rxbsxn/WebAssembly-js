@@ -1,7 +1,7 @@
 <!doctype html>
   <title>WASM Test</title>
   <script>
-    fetch('./test.wasm')
+    fetch('https://cdn.rawgit.com/Rxbsxn/WebAssembly-js/master/test.wasm')
     .then(res => {
       if (res.ok)
         return res.arrayBuffer();
